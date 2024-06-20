@@ -1,0 +1,4 @@
+
+sudo docker start -i elastic_lamport
+nano /usr/src/app/index.js
+exit

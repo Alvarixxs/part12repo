@@ -1,0 +1,14 @@
+sudo docker compose -f docker-compose.dev.yml up -d
+sudo docker container ls
+sudo docker exec -it todo-backend-redis-1 bash
+redis-cli
+KEYS *
+GET added_todos
+SET added_todos 9001
+GET added_todos
+GET added_todos
+DEL added_todos
+GET added_todos
+GET added_todos
+exit
+exit

@@ -1,0 +1,10 @@
+sudo docker run -it ubuntu bash
+ls
+cd usr
+ls
+cd src
+mkdir app
+ls
+touch index.js
+exit
+exit
